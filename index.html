@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div id="loading" class="loading-screen">
+    <div class="bounce">
+      <i data-lucide="code-2" class="loading-icon"></i>
+    </div>
+    <div class="loading-text">Loading...</div>
+  </div>
+
+  <div class="app">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-left">
+          <span class="logo">Portfolio</span>
+        </div>
+        <div class="navbar-right">
+          <button id="theme-toggle" class="theme-button" aria-label="Toggle theme">
+            <i data-lucide="moon"></i>
+          </button>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link">
+            <i data-lucide="github"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link">
+            <i data-lucide="youtube"></i>
+          </a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-link">
+            <i data-lucide="message-circle"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section id="about" class="section">
+        <div class="section-container">
+          <h2 class="section-title fade-in">About Me</h2>
+          <div class="about-card slide-up">
+            <div class="profile-image">
+              <img src="https://files.catbox.moe/ss1jo9.jpg" alt="Profile">
+            </div>
+            <p class="about-text">
+              Rass Skibidi Toilet
+            </p>
+            <div class="skills-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Portfolio</span>
+              <span class="tag">Ganteng</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="section">
+        <div class="section-container">
+          <h2 class="section-title fade-in">Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card slide-up">
+              <h3>Frontend</h3>
+              <ul class="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="skill-card slide-up" style="animation-delay: 200ms">
+              <h3>Backend</h3>
+              <ul class="skill-list">
+                <li>Node.js</li>
+              </ul>
+            </div>
+            <div class="skill-card slide-up" style="animation-delay: 400ms">
+              <h3>Tools</h3>
+              <ul class="skill-list">
+                <li>VS Code</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
